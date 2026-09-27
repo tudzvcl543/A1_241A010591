@@ -3,9 +3,9 @@ package com.example.a1_241a010591;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
-import androidx.appcompat.app.AppCompatActivity;
+import android.app.Activity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     String TAG = "A1_241A010591";
 
     @Override
