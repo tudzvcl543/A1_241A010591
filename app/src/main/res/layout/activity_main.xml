@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:orientation="vertical"
+ android:gravity="center">
+
+<TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="Lab A1 - Trần Tuấn Tú - 241A010591"/>
+
+<Button android:id="@+id/btnClear"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="Xóa Log"/>
+
+<Button android:id="@+id/btnError"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="Gây lỗi"/>
+
+<Button android:id="@+id/btnExit"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="Thoát"/>
+</LinearLayout>
